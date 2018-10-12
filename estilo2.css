@@ -1,0 +1,26 @@
+        header{
+            background-color: red;
+        }
+
+        #navigation{
+            display: inline-block;
+            padding: 0;
+        }
+
+        #navigation li{
+            display: inline-block;
+            margin-left: 50px;
+        }
+
+        #navigation a{
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .textoRojo{
+            color: red;
+        }
+
+        li.textoRojo{
+            font-weight: bold;
+        }

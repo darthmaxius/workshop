@@ -1,0 +1,135 @@
+html,
+body,
+header figure {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background-color: dimgray;
+	background-image: url('./images/background.png');
+	background-size: cover;
+	height: 500px;
+	color: white;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 50px;
+	margin-top: 100px;
+}
+
+#navigation {
+	display: inline-block;
+	padding: 0;
+}
+
+#navigation li {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+#navigation a {
+	padding: 10px;
+	cursor: pointer;
+	font-family: 'Allerta', sans-serif;
+}
+
+.subrayado {
+	text-decoration: underline;
+}
+
+.contenedor {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contenedor.header {
+	position: relative;
+	padding-top: 20px;
+}
+
+.contenedor.header h1,
+.contenedor.header h3 {
+	margin-bottom: 10px;
+}
+
+.contenedor.header button {
+	font-family: 'Allerta', sans-serif;
+	padding: 7px 12px;
+	border-radius: 12px;
+	color: white;
+	border: none;
+	background: linear-gradient(to left, #fe3443, #ff7250);
+}
+
+.contenedor.header figure,
+.contenedor.header nav {
+	display: inline-block;
+}
+
+.contenedor.header nav {
+	position: absolute;
+	right: 0;
+	margin-top: 10px;
+}
+
+.contenedor.section {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contenedor.section h2 {
+	font-size: 32px;
+}
+
+.guitarra-acustica,
+.guitarra-clasica {
+	width: 300px;
+	display: inline-block;
+	margin: 32px;
+}
+
+.contenedor.section article {
+	margin-bottom: 32px;
+}
+
+.contenedor.section article:nth-child(2),
+.contenedor.section article:nth-child(3) {
+	border: 1px solid black;
+	border-radius: 8px;
+	position: relative;
+	height: 200px;
+}
+
+.contenedor.section article:nth-child(2) img,
+.contenedor.section article:nth-child(3) img {
+	position: absolute;
+}
+
+.contenedor.section article:nth-child(2) img {
+	right: 0;
+	top: -99px;
+}
+
+.contenedor.section article:nth-child(3) img {
+	left: 0;
+	top: -26px;
+}
+
+.contenedor.section .guitarra-clasica {
+	right: 0;
+	position: absolute;
+}

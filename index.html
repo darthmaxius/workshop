@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TITULO</title>
+  <!-- Nav despues le permite a Google enlistar debajo de la busqueda mas "subpaginas" -->
+  <meta charset="utf-8" /> <!-- Para marcar el "idioma/lenguaje", para los tildes, etc -->
+  <!-- Linkeamos un archivo css -->
+  <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="./estilo.css" />
+  <link rel="stylesheet" href="./estilo2.css" media="print" />
+</head>
+
+<body>
+  <header>
+    <div class="contenedor header">
+      <figure>
+        <!-- PARA EL LOGO -->
+        <img src="./images/invie.png" />
+      </figure>
+      <nav>
+        <ul id="navigation">
+          <!-- Lista no ordenada OrderL - Una tiene numeros otra (ul) puntitos -->
+          <li><a>Home</a></li> <!-- Item -->
+          <li><a>Guitarras</a></li> <!-- Item -->
+          <li><a>Precios</a></li> <!-- Item -->
+        </ul>
+      </nav>
+      <!-- Titulo y subtitulo -->
+      <!-- GOOGLE LEE hX como prioridad. Menor X, mayor prioridad e interés tiene para las busqeudas luego-->
+      <h1>
+        <!-- Deberia haber solamente uno en toda la pagina -->
+        Guitarras <span class="subrayado">invie</span>sibles
+        <!-- El Span hace que los estilos solamente afecten a esa parte del código -->
+      </h1>
+      <h3>
+        Sé la estrella de rock que siempre quisiste ser
+      </h3>
+      <button>
+        Conoce mas
+      </button>
+    </div>
+  </header>
+  <section>
+    <div class="contenedor section">
+      <!-- Las secciones se dividen en articles -->
+      <article>
+        <h2>Nuestras guitarras</h2>
+      </article> <!-- Titulo -->
+      <article>
+        <div class="guitarra-acustica">
+          <!-- Invie Acustica -->
+          <h3>
+            Invie Acústica
+            <!-- Titulo de Bloque -->
+          </h3>
+          <ol>
+            <li>Estilo vintage</li>
+            <li>Madera pura</li>
+            <li>Incluye estuche invisible de aluminio</li>
+          </ol>
+        </div>
+        <img src="./images/invie-acustica.png" height="300" />
+      </article>
+      <article>
+        <div class="guitarra-clasica">
+          <!-- Invie Clásica -->
+          <h3>
+            Invie Clásica
+            <!-- Titulo de Bloque -->
+          </h3>
+          <ol>
+            <li>Estilo vintage</li>
+            <li>Madera pura</li>
+            <li>Incluye estuche invisible de aluminio</li>
+          </ol>
+        </div>
+        <img src="./images/invie-classic.png" width="360" />
+      </article>
+    </div>
+  </section>
+  <footer>Footer</footer>
+</body>
+
+</html>
